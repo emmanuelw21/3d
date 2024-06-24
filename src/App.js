@@ -168,8 +168,8 @@ function App() {
     <Canvas style={{ height: '100vh', width: '100vw' }} backgroundColor="lightblue">
       <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 5]} intensity={1} />
-      <BaseModel url="/models/environment.glb" />
-      <Avatar url="/models/face.glb" ref={avatarRef} />
+      <BaseModel url="https://emmanuelw21.github.io/3d/models/environment.glb" />
+      <Avatar url="https://emmanuelw21.github.io/3d/models/face.glb" ref={avatarRef} />
       <ThirdPersonControls avatarRef={avatarRef} maxHeight={10} />
     </Canvas>
   );
