@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 build/models/environment01.glb filter=lfs diff=lfs merge=lfs -text
 build/models/icarus.glb filter=lfs diff=lfs merge=lfs -text
 build/models/environment.glb filter=lfs diff=lfs merge=lfs -text
@@ -5,3 +6,7 @@ node_modules/.cache/default-development/0.pack filter=lfs diff=lfs merge=lfs -te
 public/models/environment.glb filter=lfs diff=lfs merge=lfs -text
 public/models/environment01.glb filter=lfs diff=lfs merge=lfs -text
 public/models/icarus.glb filter=lfs diff=lfs merge=lfs -text
+=======
+*.glb filter=lfs diff=lfs merge=lfs -text
+>>>>>>> f91f6b1597118031ca00122ac85cc7e4ef1a3002
+models/environment.glb filter=lfs diff=lfs merge=lfs -text

@@ -9,12 +9,7 @@
 /coverage
 
 # production
-
-#public
-/public/models/environment.glb
-/public/models/environment01.glb
-/public/models/icarus.glb
-
+/build
 
 # misc
 .DS_Store
